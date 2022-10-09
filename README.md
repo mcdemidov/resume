@@ -1,2 +1,3 @@
 # resume
- My Resume - Html Course - Result School
+ My Resume (Html Course - Result School)
+ Learn, Practice, Success!
