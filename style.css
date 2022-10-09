@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: normal;
+  color: #3d3d3d;
+  background: #fff;
+  padding: 0 15px;
+}
+.container {
+  max-width: 992px;
+  padding-top: 20px;
+  margin: auto;
+}
+.card {
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: rgba(9, 105, 214, 0.3);
+}
+.card ol,
+.card ul {
+  padding-left: 35px;
+}
+a {
+  color: rgb(65, 49, 95);
+  text-decoration: none;
+}
+a:hover {
+  font-weight: 900;
+  border-bottom: 2px solid rgb(65, 49, 95);
+}
+a:active {
+  color: rgba(9, 105, 214, 0.3);
+}
+a:visited {
+  color: rgba(9, 105, 214, 0.3);
+}
+.card a span {
+  font-style: italic;
+  font-weight: 300;
+}
+.about {
+  font-size: 18px;
+}
+.about p {
+  color: #424242;
+}
+.about span {
+  font-style: italic;
+  font-weight: 900;
+}
+
+.avatar {
+  max-width: 200px;
+  border-radius: 21px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.btn {
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.btn:hover {
+  color: orange;
+  background-color: rgb(65, 49, 95);
+}
